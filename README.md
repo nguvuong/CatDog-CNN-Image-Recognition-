@@ -11,6 +11,10 @@ The dataset used in this project is organized into three folders:
 3. **Test Set**: Includes 2,000 images (1,000 cats and 1,000 dogs) to evaluate the model's performance on new, unseen data.
 4. **Production Test**: Reserved for testing the model in a production environment.
 
+## Model Performance
+
+The CNN model has achieved an accuracy of 0.9046 on the test set, which means it correctly identifies cats and dogs in images 90.46% of the time. To use the model, simply provide an image, and it will predict whether it contains a cat or a dog.
+
 ## Problem Statement
 
 The goal of this project is to build and train a Convolutional Neural Network (CNN) to recognize whether an image contains a dog or a cat. The trained model is evaluated using the provided test set to assess its accuracy and performance.
